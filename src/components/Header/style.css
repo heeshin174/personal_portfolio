@@ -1,0 +1,30 @@
+.logo {
+  width: 13.125rem;
+  height: 4.375rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 9.375rem;
+    height: 3.125rem;
+  }
+}
+
+.nav-link {
+  margin-left: 15px;
+}
+
+.nav-link:hover {
+  box-shadow: 0 0 5px black;
+  transform: scale(1.03);
+}
+
+.nav-link:active {
+  transform: scale(0.8);
+  box-shadow: 0 0 5px black;
+}
+
+.socialicon {
+  width: 30px;
+  height: 30px;
+}

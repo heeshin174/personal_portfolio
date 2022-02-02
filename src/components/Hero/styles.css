@@ -1,0 +1,39 @@
+/* * {
+  color: white;
+}
+
+.title {
+  color: gold;
+  animation: slide 2s;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.hero {
+  font-weight: bold;
+  line-height: 3;
+}
+
+@media only screen and (max-width: 800px) {
+  .hero {
+    left: 30px;
+  }
+  h1 {
+    font-size: 2em;
+    width: 300px;
+    left: 20%;
+  }
+}
+
+@keyframes slide {
+  from {
+    top: -100px;
+    opacity: 0;
+  }
+  to {
+    top: 250px;
+    opacity: 1;
+  }
+} */
