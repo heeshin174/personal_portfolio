@@ -1,19 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap");
 
 body {
-  font-family: "Space Grotesk", sans-serif;
-}
-
-.App {
-  background: url("./img/istockphoto-1032782930-640x640.jpg") fixed;
-  height: 37.5rem;
-}
-
-.App::before {
-  content: "";
-  background: linear-gradient(to right, black, transparent);
-  position: absolute;
-  left: 0;
-  height: 100%;
-  width: 70%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
 }
