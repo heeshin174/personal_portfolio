@@ -1,31 +1,50 @@
 import "./styles.css";
-import { Button } from "react-bootstrap";
-
+import { Container, Row, Col, Button } from "react-bootstrap";
+import Typed from "react-typed";
 
 const Hero = () => {
   return (
-    <main className="hero">
-      <div className="lg">
-        <h1>
-          <span className="title">I am Heechul Shin</span>
-        </h1>
-        <h3>
-          I'm a Turin based <span>Full-Stack Web Developer</span>. I like to
-          code things from scratch, and enjoy bringing ideas to life in the
-          browser.
-        </h3>
-        <div>
-          <div>
+    <section className="hero">
+      <Container>
+        <Container>
+          <Row>
+            <Col>
+              <h1>HELLO WORLD!\n Welcome To My Personal Portfolio</h1>
+              <h1>I am Heechul Shin</h1>
+            </Col>
+          </Row>
+        </Container>
+        <Container>
+          <Row>
+            <Col>
+              <Typed
+                className="typed-text"
+                strings={[
+                  "Full Stack Web App Development...",
+                  "Web Design...",
+                  "Web App Development...",
+                  "Frontend Web Development...",
+                ]}
+                typeSpeed={80}
+                backSpeed={50}
+                loop
+              ></Typed>
+            </Col>
+          </Row>
+        </Container>
+        <Row>
+          <Col>
             <Button
               variant="primary"
               onClick={() => (window.location = "#about")}
+              className="btn-main"
             >
               Get Started
             </Button>
-          </div>
-        </div>
-      </div>
-    </main>
+          </Col>
+        </Row>
+      </Container>
+    </section>
   );
 };
 

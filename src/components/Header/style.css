@@ -15,11 +15,13 @@
 }
 
 .nav-link:hover {
-  box-shadow: 0 0 5px black;
+  border-top: 0.1875rem solid var(--primary-gold);
   transform: scale(1.03);
 }
 
-.nav-link:active {
+.nav-link:active,
+.nav-link:active:focus {
+  border-top: 0.1875rem solid var(--primary-gold);
   transform: scale(0.8);
   box-shadow: 0 0 5px black;
 }

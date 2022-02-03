@@ -6,9 +6,9 @@ import { FaDiscord } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <header>
-      <Navbar bg="dark" variant="dark" expand="lg" className="p-0">
-        <Container className="p-0">
+    <header id="home">
+      <Navbar bg="dark" variant="dark" expand="lg" className="p-0" fixed="top">
+        <Container className="p-0 bar">
           <Navbar.Brand href="#home">
             <img alt="" src={logo} className="d-inline-block align-top logo" />
           </Navbar.Brand>
