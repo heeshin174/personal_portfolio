@@ -3,14 +3,20 @@ import logo from "../../img/HatchfulExport_All/logo2.png";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { FaDiscord } from "react-icons/fa";
+import { animateScroll as scroll } from "react-scroll";
 
 const Header = () => {
   return (
-    <header>
-      <Navbar bg="dark" variant="dark" expand="lg" className="p-0">
-        <Container className="p-0">
-          <Navbar.Brand href="#home">
-            <img alt="" src={logo} className="d-inline-block align-top logo" />
+    <header id="home">
+      <Navbar bg="dark" variant="dark" expand="lg" className="p-0" fixed="top">
+        <Container className="p-0 bar">
+          <Navbar.Brand>
+            <img
+              alt=""
+              src={logo}
+              className="d-inline-block align-top logo"
+              onClick={() => scroll.scrollToTop()}
+            />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

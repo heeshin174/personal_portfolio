@@ -4,10 +4,32 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/siteload.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+      integrity="sha384-FRAhrKywb1Kn/9XWPRV318sBdwbeeQ3GutvYcHRw44tLLOjThIDqxOdfl9OqKbra"
+      crossorigin="anonymous"
+    />
     <title>Heechul Shin portfolio</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="siteLoading" id="siteLoading">
+      <div class="siteLoading-frame">
+        <img
+          class="siteLoading-image"
+          src="%PUBLIC_URL%/loader.gif"
+          alt="loader"
+        />
+      </div>
+    </div>
+
     <div id="root"></div>
   </body>
+  <script>
+    var el = document.getElementById("siteLoading");
+    setTimeout(() => {
+      el.remove();
+    }, 2000);
+  </script>
 </html>

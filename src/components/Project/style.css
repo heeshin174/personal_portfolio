@@ -1,0 +1,16 @@
+#projects {
+  background-color: var(--primary-black);
+  color: var(--primary-black);
+}
+
+#projects h1 {
+  color: var(--primary-gold);
+  font-weight: 900;
+  font-size: xx-large;
+  padding: 2rem;
+}
+
+.github {
+  font-size: 2rem;
+  margin-right: 1.2rem;
+}

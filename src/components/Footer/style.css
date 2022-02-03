@@ -1,0 +1,12 @@
+footer a {
+  background-color: var(--primary-orange);
+  border-radius: 50%;
+  padding: 1rem;
+  justify-content: center;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #303030;
+  padding: 2rem 0;
+}

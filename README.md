@@ -1,44 +1,35 @@
 # Portfolio
 
-This is my personal portfolio web site
+This is my personal portfolio web site.
 
-# Getting Started with Create React App
+## Built
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was built using these technologies.
 
-## Available Scripts
+- React
+- Node.js (ES6)
+- HTML
+- CSS3
+- VsCode
+- bootstrap (v5.1): https://getbootstrap.com/docs/5.1/components/navbar/
+- react-bootstrap (v2.1): https://react-bootstrap.github.io/components/navbar/
+- react-icons
+- react-scroll
+- react-typed
+- Google Font (Space Grotesk): https://fonts.google.com/specimen/Space+Grotesk?query=Space+Grotesk
 
-In the project directory, you can run:
+## Usage
 
-### `npm start`
+1. Download this repo
+2. In the projcet directory, run
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- `npm i` - installs all the dependencies required by the project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- `npm start` - Runs the app in the development mode.\
+  Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `npm test`
+- `npm run build` - Builds the app for production to the `build` folder.\
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Reference
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### Helpful Link
-
-Bootstrap (v5.1): https://getbootstrap.com/docs/5.1/components/navbar/
-React-bootstrap (v2.1): https://react-bootstrap.github.io/components/navbar/
-
-React-bootstrap: make bootstrap components as react components
-React-icons:
-Google Font (Space Grotesk): https://fonts.google.com/specimen/Space+Grotesk?query=Space+Grotesk
-styled-components
+https://github.com/rammazzoti2000/personal_portfolio#readme
