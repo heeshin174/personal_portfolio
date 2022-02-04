@@ -1,8 +1,10 @@
-# Portfolio
+# Portfolio Source code
 
-This is my personal portfolio web site.
+This is my personal portfolio web site and its source code.
 
-## Built
+[Live Server](https://heeshin174.github.io/)
+
+## Used Technologies
 
 This project was built using these technologies.
 
@@ -16,7 +18,6 @@ This project was built using these technologies.
 - react-icons
 - react-scroll
 - react-typed
-- Google Font (Space Grotesk): https://fonts.google.com/specimen/Space+Grotesk?query=Space+Grotesk
 
 ## Usage
 
@@ -32,4 +33,4 @@ This project was built using these technologies.
 
 ### Reference
 
-https://github.com/rammazzoti2000/personal_portfolio#readme
+[I got the idea from here](https://github.com/rammazzoti2000/personal_portfolio#readme)
