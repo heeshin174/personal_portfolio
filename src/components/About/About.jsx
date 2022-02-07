@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "./style.css";
 import photo from "../../img/passportphoto.jpg";
-import resume from "../../img/test.pdf";
+import resume from "../../img/resumeheeshin.pdf";
 import { FiMail } from "react-icons/fi";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 
@@ -43,7 +43,7 @@ const About = () => {
                 <p>
                   Email: heeshin174@gmail.com
                   <span>
-                    <a href="mailto: abc@example.com">
+                    <a href="mailto: heeshin174@gmail.com">
                       <FiMail className="mailIcon" />
                     </a>
                   </span>
